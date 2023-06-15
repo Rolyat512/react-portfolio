@@ -1,5 +1,5 @@
 import ReactDom from 'react-dom'
-import App from './app'
+import App from './app.jsx'
 import './index.css'
 
-ReactDom.render(<app/>, document.querySelector('#root'))
+ReactDom.render(<App/>, document.querySelector('#root'))

@@ -1,0 +1,28 @@
+
+.about-card {
+    background: var(--color-contrast);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .5rem;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 12rem;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: 1fr; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-card:hover {
+    background: white; 
+    color: black;
+}
+
+.about-content {
+    text-align: center;
+}
+

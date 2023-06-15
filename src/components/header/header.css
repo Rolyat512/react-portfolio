@@ -1,0 +1,90 @@
+header {
+    height: 110vh; 
+    padding-top: 6rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative; 
+} 
+
+/* Resume */
+
+.contact {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* Socials  */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: white;
+}
+
+/* myPhoto */
+
+.myPhoto { 
+    background: linear-gradiant(var(--color-blue),transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    translate: translatX(-50%);
+    margin-left: -9rem;
+    margin-top: -20rem;
+    border-radius: 12rem 12rem 0 0; 
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* Scroll Down  */
+
+.scroll_down {
+    position: fixed;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 300;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header_socials, 
+    .scroll_down {
+        display: none;
+    }
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}

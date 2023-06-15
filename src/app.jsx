@@ -9,7 +9,7 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
 
-const app = () => {
+const App = () => {
   return (
     <div>
       <Header />
@@ -24,4 +24,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App
