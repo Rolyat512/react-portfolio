@@ -1,17 +1,20 @@
 nav {
-    background: rgba(0, 0, 0, .2);
-    width: max-content;
-    display: block;
-    padding: .5rem 1.5rem;
+    background: rgba(0, 0, 0, .1);
+    width: max-content; 
+    display: block; 
+    padding: .5rem 1.5rem; 
     z-index: 1.8;
-    position: fixed;
+    position: fixed; 
     gap: .7rem;
     border-radius: 2rem;
-    backdrop-filter: blur(11px);
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 1.8rem;
-    display: flex;
+    backdrop-filter: blur(11px); 
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: 1.8rem; 
+    display: flex; 
+    /* float: right;
+    transform: rotate(-90deg) translateY(-100%);
+    transform-origin: top right; */
 }
 
 nav a {

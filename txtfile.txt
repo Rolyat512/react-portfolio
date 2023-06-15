@@ -2,14 +2,23 @@ In bulma you should organize your sections like this
 
 <section className='section'>
     <div className='container'>
-        <div className='columns'>
-
-        </div>
+        <div class="columns">
+  <div class="column">
+    <p class="bd-notification is-info">First column</p>
+    <div class="columns is-mobile">
+      <div class="column">
+        <p class="bd-notification is-info">First nested column</p>
+      </div>
+      <div class="column">
+        <p class="bd-notification is-info">Second nested column</p>
+      </div>
+    </div>
+  </div>
     </div>
 </section>
 
 
-another example of nested columns 
+another example of nested columns Main
 <section className='section'>
     <div className='container'>
 

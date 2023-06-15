@@ -85,5 +85,43 @@ const about = () => {
   )
 }
 
+// const about = () => {
+//   return (
+//     <section className='section'>
+//     <div className='container'>
+
+// <div class="columns">
+//   <div class="column">
+//     <h1 className='title'>About Me</h1>
+//     <p class="bd-notification is-info">First column</p>
+//     <div class="columns is-mobile">
+//       <div class="column">
+//       <article className='about-card'>
+//                 <FiAward className='about-icon'/> 
+//                  <h5>Experience</h5>
+//                 <small> 1 year of coding experience </small>
+//       </article>
+//       </div>
+//       <div class="column">
+//       <article className='about-card'>
+//                   <VscFolder className='about-icon'/> 
+//                   <h5>Projects</h5>
+//                   <small> Two Fullstack Projects </small>
+//       </article>
+//       </div>
+//     </div>
+//   </div>
+//   <div class="column">
+//     <p class="bd-notification is-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur necessitatibus repellendus itaque minima cupiditate modi laborum aut hic sint consectetur. Sunt, deserunt hic doloremque dolor ducimus incidunt. Sed, earum beatae!</p>
+//   </div>
+// </div>
+
+// </div>
+// </section>
+//   )
+
+// }
+
+
 
 export default about
